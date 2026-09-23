@@ -38,7 +38,7 @@ tests:
       strict: true
       site_packages:
         - auditwheel_emscripten/**
-        - auditwheel_emscription-${{ version }}.dist-info/**
+        - auditwheel_emscripten-${{ version }}.dist-info/**
   - python:
       imports:
         - auditwheel_emscripten
